@@ -27,7 +27,32 @@ if(colts == 4){
 	console.log("hahahaha");
 }
 
-var x = 0;
-while (x<100){
-	x++
+/*FizzBuzz thing: for loop */
+var x = 1;
+for (x = 1; x<=100; x++) {
+	if(x % 5 == 0 && x % 3 == 0){
+		console.log( "FizzBuzz");
+	} else if(x % 5 == 0){
+		console.log("Buzz");
+	} else if(x % 3 == 0){
+		console.log("Fizz")
+	} else {
+		console.log(x);
+	}
 }
+
+/* while loop
+var num = 1;
+while(num < 101){
+	if(num % 15 === 0){
+		console.log("FizzBuzz");
+	} else if(num % 5 === 0){
+		console.log("Buzz");
+	} else if(num % 3 === 0){
+		console.log("Fizz")
+	} else {
+		console.log(num);
+	}
+	num = num + 1;  // wonky expression
+}
+*/
