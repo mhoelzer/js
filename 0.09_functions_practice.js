@@ -37,7 +37,7 @@ function calculator(num1,operator,num2){
 		return "Please enter a valid operator";
 	}
 }
-console.log(calculator(12,"p",6))
+console.log(calculator(12,"-",6))
 // diff way???
 function calculator(num1,operator,num2){
 	if (operator == "+") {return num1+num2};
