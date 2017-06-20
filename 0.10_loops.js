@@ -60,7 +60,7 @@ while(countdown > 0){
 	} else {
 		console.log(countdown);
 	};
-}
+} 
 
 console.log("-----FOR-----");
 // FOR loop
