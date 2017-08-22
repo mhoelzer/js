@@ -16,6 +16,7 @@ var alex = new Hotel("The Alexander",500,150);
 
 // build an array to hold the hotels
 var hotels = [rri,alex];
+console.log(hotels);
 
 // show all hotels function
 function showAllHotelsInfo(){

@@ -73,7 +73,7 @@ for(apples = 0; apples<=10; apples++){  //apples<10 gives 0-9
 	console.log(apples);
 }
 for(apples = 0; apples<=10; apples++){
-	console.log(test);  //will first print undefined /c test has no meaning yet
+	console.log(test);  //will first print undefined b/c test has no meaning yet
 	console.log(apples);
 	var test = "test";
 }

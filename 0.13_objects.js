@@ -66,7 +66,7 @@ var theBryceIsRight = {
 console.log(theBryceIsRight.greeting());  // this prints the function's return
 console.log(theBryceIsRight.greetContact());
 
-console.log("-----Obj Constrcuters-----");
+console.log("-----Obj Constructers-----");
 // Objects contructors
 var paul = new Object;
 //same as var paul = {}
@@ -76,7 +76,7 @@ paul.vocation = "Curriculum Master";
 paul.hobbies = ["rocking out code","listening to good music","baking banana muffins"];
 // build properties then assign them
 
-console.log("-----Obj Constrcuters Template-----");
+console.log("-----Obj Constructers Template-----");
 // Objects contructors template
 // will do same syntax bt can build hotels off it
 function Hotel(name,rooms,booked){
